@@ -1,0 +1,8 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://sso-dev.aibles.com/realms/pay-gate-test
+server:
+  port: 8081
